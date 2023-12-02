@@ -127,7 +127,7 @@ a{text-decoration: none;}
     width: 440px;
     background-size: contain;
     bottom: -50px;
-    right: -100px;
+    right: 20px;
 }
 
 .bg_image1 {
@@ -137,15 +137,15 @@ a{text-decoration: none;}
     width: 440px;
     background-size: contain;
     bottom: -50px;
-    right: -100px;
+    right: 50px;
     z-index: 10;
 }
 
 .bg_image2 {
     background: url(./img/bnoder3.png) no-repeat;
-    height: 586px;
+    height: 560px;
     position: absolute;
-    width: 586px;
+    width: 560px;
     background-size: contain;
     animation-name: rotateIn;
     animation-delay: 1s;
@@ -154,14 +154,15 @@ a{text-decoration: none;}
     top: 55%;
     left: 60%;
     transform: translate(-50%, -50%);
-    overflow: hidden;
+    /*overflow: hidden;*/
+    background-clip: padding-box;
 }
 
 .bg_image3 {
     background: url(./img/bnoder3.png) no-repeat;
-    height: 586px;
+    height: 560px;
     position: absolute;
-    width: 586px;
+    width: 560px;
     background-size: contain;
     top: 55%;
     left: 60%;
@@ -183,7 +184,8 @@ a{text-decoration: none;}
     animation-delay: 0.2s;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    overflow: hidden;
+    /*overflow: hidden;*/
+    background-clip: padding-box;
 }
 
 .bg_image5 {
@@ -222,6 +224,7 @@ a{text-decoration: none;}
     font-weight: bold;
     cursor: pointer;
     border-radius: 8px;
+    border: 1px solid #fff
 }
 
 
@@ -1239,9 +1242,16 @@ footer .kinh-paragraph {
 .check-icon.checked::before {
     opacity: 1;
 }
+.box_kinhluandien{overflow: hidden}
+
+@media screen and (max-width: 1340px) {
+    /*.kinh_container1 .wrp .kinh_container1-right, .kinh_container4-item:nth-child(1) .iLeft, .kinh_container9-right {
+       overflow: hidden;
+    }*/
+    .bg_image3, .bg_image2{width: 500px; height: 500px}
 
 
-@media screen and (max-width: 1340px) {.kinh_container1 .wrp .kinh_container1-right, .kinh_container4-item:nth-child(1) .iLeft,.kinh_container9-right{overflow: hidden;}}
+}
 
 
 
