@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="LoadControl.ascx.cs" Inherits="Areas_Display_News_Control_LoadControl" %>
+<asp:PlaceHolder runat="server" ID="plLoadControl"></asp:PlaceHolder>

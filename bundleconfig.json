@@ -1,0 +1,128 @@
+[
+  {
+    "outputFileName": "css/style.min.css",
+    "inputFiles": [
+      "css/style.css"
+    ]
+  },
+  {
+    "outputFileName": "js/custom.min.js",
+    "inputFiles": [
+      "js/custom.js"
+    ]
+  },
+  {
+    "outputFileName": "js/home.min.js",
+    "inputFiles": [
+      "js/home.js"
+    ]
+  },
+  {
+    "outputFileName": "css/home.min.css",
+    "inputFiles": [
+      "css/home.css"
+    ]
+  },
+  {
+    "outputFileName": "css/dssp1.min.css",
+    "inputFiles": [
+      "css/dssp1.css"
+    ]
+  },
+  {
+    "outputFileName": "css/ctsp.min.css",
+    "inputFiles": [
+      "css/ctsp.css"
+    ]
+  },
+  {
+    "outputFileName": "js/ctsp.min.js",
+    "inputFiles": [
+      "js/ctsp.js"
+    ]
+  },
+  {
+    "outputFileName": "css/new.min.css",
+    "inputFiles": [
+      "css/new.css"
+    ]
+  },
+  {
+    "outputFileName": "css/index.min.css",
+    "inputFiles": [
+      "css/index.css"
+    ]
+  },
+  {
+    "outputFileName": "css/project.min.css",
+    "inputFiles": [
+      "css/project.css"
+    ]
+  },
+  {
+    "outputFileName": "css/ctda.min.css",
+    "inputFiles": [
+      "css/ctda.css"
+    ]
+  },
+  {
+    "outputFileName": "js/ctda.min.js",
+    "inputFiles": [
+      "js/ctda.js"
+    ]
+  },
+  {
+    "outputFileName": "js/jquery.flexslider.min.js",
+    "inputFiles": [
+      "js/jquery.flexslider.js"
+    ]
+  },
+  {
+    "outputFileName": "js/jquery.fancybox.min.js",
+    "inputFiles": [
+      "js/jquery.fancybox.js"
+    ]
+  },
+  {
+    "outputFileName": "js/Index.min.js",
+    "inputFiles": [
+      "js/Index.js"
+    ]
+  },
+  {
+    "outputFileName": "css/News.min.css",
+    "inputFiles": [
+      "css/News.css"
+    ]
+  },
+  {
+    "outputFileName": "css/Contact.min.css",
+    "inputFiles": [
+      "css/Contact.css"
+    ]
+  },
+  {
+    "outputFileName": "css/AboutUs.min.css",
+    "inputFiles": [
+      "css/AboutUs.css"
+    ]
+  },
+  {
+    "outputFileName": "css/Product.min.css",
+    "inputFiles": [
+      "css/Product.css"
+    ]
+  },
+  {
+    "outputFileName": "js/Product.min.js",
+    "inputFiles": [
+      "js/Product.js"
+    ]
+  },
+  {
+    "outputFileName": "js/News.min.js",
+    "inputFiles": [
+      "js/News.js"
+    ]
+  }
+]

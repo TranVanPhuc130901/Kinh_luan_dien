@@ -1,0 +1,13 @@
+﻿.gothiar_contact{ margin-top: 120px;background: #f5f5f5;padding: 80px 0 120px}
+.gothiar_contact_inner{ max-width: 1200px;margin: 0 auto}
+.gothiar_contact_inner .heading{ text-align: center;margin-bottom: 30px}
+.gothiar_contact_inner .boxs{ display: flex;flex-wrap: wrap;gap:20px}
+.gothiar_contact_inner .box{ width: calc((100% - 40px) / 3);background: #fff;border-radius: 10px;padding:20px}
+.gothiar_contact_inner .box .box_heading{margin-top: 0}
+.gothiar_contact_inner .box a{ color: #333;font-weight: 500;text-decoration: none}
+.gothiar_contact_inner .box a:hover{text-decoration: underline}
+
+@media(max-width: 767px) {
+    .gothiar_contact{ margin-top: 100px;padding: 20px 0 40px}
+    .gothiar_contact_inner .box{width: 100%}
+}

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="CloneProduct.aspx.cs" Inherits="Areas_Admin_Ajax_Items_CloneProduct" %>

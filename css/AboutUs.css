@@ -1,0 +1,25 @@
+﻿.gothiar_about_us{padding: 60px 0}
+.gothiar_about_us .wrp{ display: flex;gap: 30px;flex-wrap: wrap}
+.gothiar_about_us .c_top{ width: 100%;text-align: center}
+.gothiar_about_us .c_top h1{ font-size: 40px;margin: 0}
+/*.gothiar_about_us .c_cleft{width: calc(70% - 15px)}
+.gothiar_about_us .c_right{ width: calc(30% - 15px);}*/
+.gothiar_about_us .c_cleft, .gothiar_about_us .c_right{width: 100%}
+
+.about_us_categories{ padding: 0;list-style: none;max-width: 830px;margin: 0 auto}
+.about_us_categories li{margin-bottom: 10px}
+.about_us_categories li a{font-weight: bold;color: #333;transition: all 0.2s}
+.about_us_categories li a:hover{text-decoration: none;transition: all 0.2s;padding-left: 10px}
+.about_us_categories li.active a{ color: #777;}
+.contentView{line-height: 1.8;}
+.contentView > p, .contentView > ul, .contentView > ol{ max-width: 830px;margin: 1em auto}
+.contentView h2, .contentView h3{max-width: 830px;margin: 1em auto}
+.contentView figure{ margin-left: 0;margin-right: 0}
+.contentView figcaption{ font-size: 16px;color:#777}
+
+
+@media(max-width: 767px) {
+    .gothiar_about_us{ padding: 40px 0;margin-top: 100px}
+    .gothiar_about_us .c_cleft, .gothiar_about_us .c_right{width: 100%}
+    .about_us_categories li.active a{padding-left: 0}
+}
